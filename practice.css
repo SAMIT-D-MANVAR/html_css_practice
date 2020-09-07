@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth; /*smooth scroll movement on pressing navigator link */
+}
+
+body {         /* div expands completely*/
+  margin: 0;
+}
+.header {         /*header section*/
+background: linear-gradient(to bottom, #99ff33 0%, #ffffcc 69%);
+  padding: 40px;
+  text-align: center;
+}
+.heading{
+	font-size:60px;           /*heading title*/
+	font-style:italic;
+	color:#ff1a1a;
+}
+
+.topnav {
+  overflow: hidden;            /*navigator bar*/
+  background-color: #ffcc66;
+  
+}
+.topnav a {
+  float:left; 
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+.container.box{        /*footer*/
+	height:100px;
+	width:300px;
+	font-size:15px;
+	float:left;
+	font-weight:bold;
+	margin:0px 0px 0px 150px;
+	background-color:#b3d9ff;
+	text-align:center;
+}
+.container.box1{        
+	height:300px;
+	width:300px;
+	font-size:15px;
+	float:left;
+	font-weight:bold;
+	margin:0px 0px 0px 150px;
+	background-color:#b3d9ff;
+	text-align:center;
+}
